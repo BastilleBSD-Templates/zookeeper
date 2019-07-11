@@ -1,0 +1,7 @@
+echo 1 > /var/db/zookeeper/myid
+chown -R zookeeper:zookeeper /var/db/zookeeper
+
+cp /usr/local/etc/zookeeper/zoo_sample.cfg /usr/local/etc/zookeeper/zoo.cfg
+
+
+
